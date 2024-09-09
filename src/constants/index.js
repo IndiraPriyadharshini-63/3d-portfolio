@@ -27,6 +27,11 @@ import sorting from "../assets/sorting.png";
 import social from "../assets/social.png";
 import resume from "../assets/resume.png";
 import parcare from "../assets/parcare.png";
+import education from "../assets/education.png";
+import work from "../assets/work.png";
+import inkscape from "../assets/tech/inkscape.png";
+import mysql from "../assets/tech/mysql.png";
+
 
 export const navLinks = [
   {
@@ -96,10 +101,7 @@ const technologies = [
     name: "MongoDB",
     icon: mongodb,
   },
-  {
-    name: "Three JS",
-    icon: threejs,
-  },
+
   {
     name: "git",
     icon: git,
@@ -116,14 +118,31 @@ const technologies = [
     name: "kotlin",
     icon: kotlin,
   },
+  {
+    name: "inkscape",
+    icon: inkscape,
+  },
+  {
+    name: "mysql",
+    icon: mysql,
+  },
+  
 ];
 
 const experiences = [
   {
+    title: "Bachelor of Engineering",
+    company_name: "University College of Engineering, Anna University, Chennai",
+    icon: education,
+    iconBg: "#E6DEDD",
+    date: "August 2016 - May 2020",
+    points: ["Computer Science and Engineering"],
+  },
+  {
     title: "Trainee",
     company_name: "Ameex Technologies",
-    icon: starbucks,
-    iconBg: "#383E56",
+    icon: work,
+    iconBg: "#E6DEDD",
     date: "October 2020 - August 2021",
     points: [
       "Completed training in UX/UI Design, Android development and software quality assurance, enhancing technical skills and contributing to the successful execution of system specifications.",
@@ -136,7 +155,7 @@ const experiences = [
   {
     title: "Associate Software Engineer",
     company_name: "Ameex Technologies",
-    icon: tesla,
+    icon: work,
     iconBg: "#E6DEDD",
     date: "September 2021 - March 2022",
     points: [
@@ -266,8 +285,7 @@ const projects = [
       },
     ],
     image: parcare,
-    source_code_link:
-      "https://www.behance.net/gallery/207227903/PARCARE",
+    source_code_link: "https://www.behance.net/gallery/207227903/PARCARE",
   },
 ];
 
