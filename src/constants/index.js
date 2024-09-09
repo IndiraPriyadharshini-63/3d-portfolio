@@ -26,6 +26,7 @@ import postman from "../assets/tech/postman.png";
 import sorting from "../assets/sorting.png";
 import social from "../assets/social.png";
 import resume from "../assets/resume.png";
+import parcare from "../assets/parcare.png";
 
 export const navLinks = [
   {
@@ -239,7 +240,34 @@ const projects = [
       },
     ],
     image: resume,
-    source_code_link: "https://github.com/IndiraPriyadharshini-63/Resume-Builder",
+    source_code_link:
+      "https://github.com/IndiraPriyadharshini-63/Resume-Builder",
+  },
+  {
+    name: "PARCARE",
+    description:
+      "Positive and engaging user experience design. The main goal of app is ease parking and save user's time by collaborating with private parking areas.",
+    tags: [
+      {
+        name: "UI/UX",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "figma",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "inkscape",
+        color: "green-text-gradient",
+      },
+      {
+        name: "coolers",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: parcare,
+    source_code_link:
+      "https://www.behance.net/gallery/207227903/PARCARE",
   },
 ];
 
