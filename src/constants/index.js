@@ -29,9 +29,7 @@ import resume from "../assets/resume.png";
 import parcare from "../assets/parcare.png";
 import education from "../assets/education.png";
 import work from "../assets/work.png";
-import inkscape from "../assets/tech/inkscape.png";
 import mysql from "../assets/tech/mysql.png";
-
 
 export const navLinks = [
   {
@@ -118,15 +116,11 @@ const technologies = [
     name: "kotlin",
     icon: kotlin,
   },
-  {
-    name: "inkscape",
-    icon: inkscape,
-  },
+
   {
     name: "mysql",
     icon: mysql,
   },
-  
 ];
 
 const experiences = [
